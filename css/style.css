@@ -1,13 +1,23 @@
 /* regole generali */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Star title section */
+.star hr {
+  margin-top: 60px;
+  font-size: 10px;
+}
+
+.star h1 {
+  color:white;
+}
+
+.star {
+  width: 100%;
+  margin:auto;
 }
 
 /* regole di debug */
@@ -42,4 +52,35 @@ img {
 
 .bg_blue {
   background-color:#3a546d;
+}
+
+/* navigation bar rules */
+
+.left-text,.right-text {
+   text-align: center;
+}
+
+.right-text li {
+  display: inline;
+  list-style-type: none;
+}
+
+/* Jumbotron rules  */
+
+.jumbotron {
+  text-align: center;
+  margin:auto;
+  background-color:#1abc9c;
+  width: 80%;
+}
+.jumbotron img {
+  width: 30%;
+}
+
+/* Section rules */
+
+.section1 {
+  text-align: center;
+  margin:auto;
+  width: 80%;
 }
