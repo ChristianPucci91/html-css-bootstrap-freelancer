@@ -208,9 +208,3 @@ i.fa:hover {
   }
 
 }
-
-@media screen and (max-width:992px) {
-  #button {
-    text-align: center;
-  }
-}
