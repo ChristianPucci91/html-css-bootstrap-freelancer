@@ -137,7 +137,7 @@ img {
   border-radius: 10px;
   border-color: white;
   color: white;
-  padding: 12px 20px 12px 0;
+  padding: 12px 20px 12px 20px;
   cursor: pointer;
   font-size: 20px;
 }
@@ -152,6 +152,7 @@ img {
   cursor: pointer;
   font-size: 20px;
 }
+
 
 /* footer rules */
 
@@ -195,6 +196,8 @@ i.fa:hover {
   color:white;
 }
 
+/* Media screen rules  */
+
 @media screen and (max-width:576px) {
   .star h2 {
     font-size: 20px;
@@ -203,3 +206,11 @@ i.fa:hover {
   .star h4 {
     font-size: 10px;
   }
+
+}
+
+@media screen and (max-width:992px) {
+  #button {
+    text-align: center;
+  }
+}
