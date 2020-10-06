@@ -6,55 +6,49 @@ img {
 }
 
 /* Star title section */
-.star hr {
-  margin-top: 60px;
-  font-size: 10px;
+
+.star {
+  text-align: center;
+}
+.star.white > * {
+  color:white
 }
 
-.star h1 {
+.star.black > *  {
+  color:black;
+}
+
+.star span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.outer-line {
+  width: 90px;
+  border-bottom: 1px solid white;
+}
+
+.outer-line.black {
+  width: 90px;
+  border-bottom: 1px solid black;
+}
+
+#nav_bar_ms {
+  margin-bottom: 0px;
+  border-color:#2c3e50;
+  background-color: #2c3e50;
+}
+
+#nav_text_color {
   color:white;
 }
 
-.star {
-  width: 100%;
-  margin:auto;
+#nav_text_color a {
+  color:white;
 }
-
-/* #menu-large {
-  display: none;
-} */
-
-
-@media (max-width: 768px){
-  #menu-large {
-    display: none;
-  }
-  #burger {
-    display: block;
-  }
-}
-
-@media (min-width: 769px){
-  #burger {
-    display: none;
-  }
-  #menu-large {
-    display:block;
-  }
-}
-/* regole di debug */
-/* [class*="col-"] {
-  min-height: 100px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
-  padding: 2px;
-} */
-
-/* .row .col-6 div  */
-/* [class*="col-"] > .row > [class*="col-"]{
-  background-color: salmon;
-  border-color: #fff;
-} */
 
 /* regole corpo pagina */
 
@@ -91,12 +85,16 @@ img {
 
 .jumbotron {
   text-align: center;
-  margin:auto;
   background-color:#1abc9c;
-  width: 80%;
+  width: 100%;
 }
 .jumbotron img {
   width: 30%;
+}
+
+.jumbotron h2 {
+  color:white;
+  font-size: 40px;
 }
 
 /* Section rules */
@@ -104,7 +102,7 @@ img {
 .section1 {
   text-align: center;
   margin:auto;
-  width: 80%;
+  width: 100%;
 }
 
 .section_img {
@@ -113,7 +111,10 @@ img {
 
 .section_img img {
   width: 50%;
+}
 
+.titlecolor {
+  color:white;
 }
 
 .button {
